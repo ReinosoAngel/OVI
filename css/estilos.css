@@ -149,6 +149,77 @@ em{
 	
 }
 
+.contenedorLecturas{
+	height: 100%;
+	display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	-webkit-box-direction: normal; 
+	-webkit-box-orient: vertical;
+
+}
+
+.subPrincipalLecturas{
+	height: 40%;
+	max-height: 49%
+	max-width: 100%;
+	margin-top: 1%;
+    margin-left: 2.5%;
+   
+}
+
+
+.tSubPrincipalLecturas{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0.25em;
+	text-align: center;
+	width: 98.5%;
+	max-height: 10%;
+}
+.pSubPrincipalLecturas{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	font-size: 14px;
+	padding: 0.125em;
+	width: 47%;
+	height: 170%;
+	padding: 0.25em;
+	max-height: 200%;
+	overflow:  auto;
+	
+}
+
+.pMarginLDos{
+	margin-top: -28%;
+}
+
+.pMarginLTres{
+	margin-top: -56%;
+}
+
+
+/*Clase para controlador las secciones de los sub items de la pestaña Lecturas*/
+.oculto {
+	display: none;
+	}
+
+.imgEtiquetas{
+	position: absolute;
+  	top:  350px; 
+  	left: 750px;
+  	width: 47%;
+	height: 160%;
+	max-height: 200%;
+}
+
+
 /*Clase para todos los contenedores principales 
   que controla las margenes*/
 .margenes{
@@ -224,12 +295,15 @@ em{
     box-shadow: 0px 5px 2px 0px #ccc;
 }
 
+
+
 .menu li{
 	/*permite distribuir todos los menus dentro del nav*/	
 	flex-grow: 1;	
 	-webkit-flex-grow: 1; /* Safari 6.1+ */
 	text-align: center;
 }
+
 
 /*Estilo de los menus redondeados*/
 .menu li a {
@@ -241,11 +315,59 @@ em{
 	background: #FFFFFF;
 }
 
+
 /*Al pasar el mouse por envcima del menu*/
 .menu li a:hover{
 	background: #005883;
 }
 
+#subMenuL{
+	width: 100%;
+	max-width: 1000px;
+	margin-top: 3px;
+}
+
+.subMenu {
+/*	width: 400px;
+    height: 400px;*/
+  /*  border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+  /*  -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: flex;
+   flex-direction: column;
+}
+
+
+.subMenu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+   
+}
+.subMenu li{
+	 width: 950px;
+    height: 30px;
+    margin-left: 25px;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+}
+
+.subMenu li a {
+	display: block;
+	padding: 5px 20px;
+	text-decoration: none; 
+	border-radius: 0.5em 0.5em 0em 0em; 
+	border: 1px solid #005883;   
+	background: #FFFFFF;
+}
+
+.subMenu li a:hover{
+	background: #CFCFCF;
+}
+
+.letraSubItem{	
+	color: 	#000000;
+}
 
 /*esto es para realizar los menus de forma responsive*/
 
@@ -303,4 +425,6 @@ em{
 		margin: 0;
 		width: 100px;
 	}
+
+
 }
