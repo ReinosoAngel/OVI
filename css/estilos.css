@@ -287,10 +287,10 @@ em{
 
 .imgEtiquetas{
 	position: absolute;
-  	top:  350px; 
-  	left: 750px;
-  	width: 47%;
-	height: 160%;
+  	top:  200px; 
+  	left: 600px;
+  	/*width: 47%;
+	height: 160%;*/
 	max-height: 200%;
 }
 
