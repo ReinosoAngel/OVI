@@ -144,7 +144,7 @@ em{
 
 #conta{
 	text-align: center;
-	min-height: 12%;
+	min-height: 25%;
 	text-decoration: underline;
 	font-weight: bold;
 
@@ -174,7 +174,9 @@ em{
 }
 
 #reloj{
-	width: 50%;
+	width: 60%;
+	min-width: 60%;
+
 }
 
 .subPrincipal{
