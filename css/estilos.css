@@ -28,27 +28,48 @@ em{
 
 /*clase para el contenedor central donde se encuentra el aside y la secciópn principal*/
 .contenedor{
-	height: 70%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;  /* TWEENER - IE 10 */
-	display: -webkit-flex; /* NEW - Chrome */
-	-webkit-box-direction: normal; 
-	-webkit-box-orient: vertical;
+
+	 -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+	flex-direction: row;
+	height:  70vh;
 
 }
 
 /*Esto es la sección del logo de html*/
 .asideLogo{
+	/*
 	display: inline-block;
-	vertical-align: top;
+	*/
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+	/*vertical-align: top;*/
 	max-width: 34%;
 	width: 34%;
 	max-height: 100%;
 	height: 100%;
 	text-align:center;
 	min-width: 200px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;  
+    overflow: hidden;
+    
 
 }
 /*Esto es para el principal sección donde va todo lo que hay que cambiar*/
@@ -57,11 +78,15 @@ em{
 }
 
 .principal{
-	display: inline-block;
 	vertical-align: top;	
 	max-width: 100%;
 	min-height: 200px;
-	margin: 0em auto;
+	
+	-webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;  
+    overflow: hidden;
 
 }
 
@@ -85,9 +110,14 @@ em{
 
 /*clase para el logo de HTML5*/
 #htmlLogo{
+	height: 70%;
 	max-width: 100%;
-	padding: 0px;		
+	padding: 0px;	
+	vertical-align: top: ;0px
+
 }
+
+
 
 /*clase para el titulo Diseños de Sitios WEB*/
 .tHeader{
@@ -101,19 +131,58 @@ em{
 .tituloHtml{	
 	text-align: center;
 	font-style: oblique;
-	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	        border-radius: 0.3em;
 	margin: 0 auto;
 	min-height: 40px;
     padding-top:10px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+#conta{
+	text-align: center;
+	min-height: 12%;
+	text-decoration: underline;
+	font-weight: bold;
+
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+#conta p{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#reloj{
+	width: 50%;
 }
 
 .subPrincipal{
 	height: 49%;
-	max-height: 49%
+	max-height: 49%;
 	max-width: 100%;
 	display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */    /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;  /* TWEENER - IE 10 */
 	display: -webkit-flex; /* NEW - Chrome */
 	flex-direction: column;
@@ -121,12 +190,17 @@ em{
     -webkit-flex-direction:column;
     -webkit-box-direction: normal; 
     -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;	
+	    -ms-flex-positive: 1;	
+	        flex-grow: 1;	
+	-webkit-flex-grow: 1; /* Safari 6.1+ */
 }
 
 .tSubPrincipal{
 	background: #FFFFFF;
 	border: 1px solid #000000;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	        border-radius: 6px;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 0.25em;
@@ -138,7 +212,8 @@ em{
 .pSubPrincipal{
 	background: #FFFFFF;
 	border: 1px solid #000000;
-	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	        border-radius: 6px;
 	font-size: 14px;
 	padding: 0.125em;
 	width: 98.5%;
@@ -204,11 +279,6 @@ em{
 	margin-top: -56%;
 }
 
-#htmlLecturas{
-	width: 100%;
-	max-width: 60%;
-	padding: 0px;		
-}
 
 
 /*Clase para controlador las secciones de los sub items de la pestaña Lecturas*/
@@ -235,8 +305,10 @@ em{
 .margenes{
 	margin: 0 auto;
 	max-width: 1000px;
-	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	        border-radius: 0.5em;
 	margin-top: 3px;
+	position: relative;
 }
 /*Clase que controla la letra principal de los contenedore*/
 .principalLetra{	
@@ -264,8 +336,8 @@ em{
 #menuH label{
 	display: none;
 	width: 30px;
-	height: 30px	
-	border-right: 1px solid #FFFFFF;	
+	height: 30px;	
+	border-right: 1px solid #FFFFFF	
 }
 
 /*clic sobre la etiqueta del menu cuando esta el menu
@@ -295,21 +367,25 @@ em{
 	padding: 0;
 	/*con esto pone los il en linea*/
 	display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */    /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;  /* TWEENER - IE 10 */
 	display: -webkit-flex; /* NEW - Chrome */
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
-    box-shadow: 0px 5px 2px 0px #ccc;
+    -webkit-box-shadow: 0px 5px 2px 0px #ccc;
+            box-shadow: 0px 5px 2px 0px #ccc;
 }
 
 
 
 .menu li{
 	/*permite distribuir todos los menus dentro del nav*/	
-	flex-grow: 1;	
+	-webkit-box-flex: 1;	
+	    -ms-flex-positive: 1;	
+	        flex-grow: 1;	
 	-webkit-flex-grow: 1; /* Safari 6.1+ */
 	text-align: center;
 }
@@ -320,7 +396,8 @@ em{
 	display: block;
 	padding: 5px 20px;
 	text-decoration: none; 
-	border-radius: 0.5em 0.5em 0em 0em; 
+	-webkit-border-radius: 0.5em 0.5em 0em 0em; 
+	        border-radius: 0.5em 0.5em 0em 0em; 
 	border: 1px solid #005883;   
 	background: #FFFFFF;
 }
@@ -397,6 +474,7 @@ em{
         -webkit-flex-direction:column;
         -webkit-box-direction: normal; 
         -webkit-box-orient: vertical;
+        height: 70%
 	}
 
 }
@@ -411,6 +489,7 @@ em{
 		background: #FFFFFF;
 		width: 25%;
 		margin-left: -80%; 
+		-webkit-transition: all 0.5s; 
 		transition: all 0.5s;
 		}
 	.menu ul{		
@@ -426,7 +505,8 @@ em{
 		padding-left: 1px;
 	}
 	.menu li a{
-		border-radius: 0em 0em 0em 0em; 
+		-webkit-border-radius: 0em 0em 0em 0em;
+		        border-radius: 0em 0em 0em 0em; 
 		padding: 3px 5px;
 		min-width: 50px;
 	}
