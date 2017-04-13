@@ -280,6 +280,7 @@ em{
 }
 
 
+
 /*Clase para controlador las secciones de los sub items de la pestaña Lecturas*/
 .oculto {
 	display: none;
@@ -289,9 +290,13 @@ em{
 	position: absolute;
   	top:  200px; 
   	left: 600px;
-  	/*width: 47%;
-	height: 160%;*/
 	max-height: 200%;
+}
+
+#htmlImgene{
+	max-width: 100%;
+	left : 0px;
+	padding: 0px;		
 }
 
 
