@@ -27,11 +27,11 @@
 				<ul >
 					<li><a class="principalLetra" href="index.html">Inicio</a></li>
 					<li><a class="principalLetra" href="Historia.html">Historia</a></li>
-					<li><a class="principalLetra" href="Tags.html">Tag's</a></li>
+					<li><a class="principalLetra" href="">Tag's</a></li>
 	           		<li><a class="menuSelecionado principalLetra"  href="Lecturas.html">Lecturas</a></li>
-				    <li><a class="principalLetra" href="Multimedia.html">Multimedia</a></li>
-					<li><a class="principalLetra" href="Actividades.html">Actividades</a></li>
-					<li><a class="principalLetra" href="Autores.html">Autores</a></li>
+				    <li><a class="principalLetra" href="">Multimedia</a></li>
+					<li><a class="principalLetra" href="">Actividades</a></li>
+					<li><a class="principalLetra" href="">Autores</a></li>
 				</ul>
 			</nav>
 		</section>
@@ -41,11 +41,11 @@
 		<section id="subMenuL">
 			<nav class = "subMenu">
 				<ul >
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaUno')" >  ¿Que es HTML5? </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaDos')">  Estructuras Básicas de HTML5 </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaTres')">  Etiquetas de Estructura </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCuatro')">  Lectura 4 </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCinco')">  Lectura 5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaUno')" >  ¿Que es HTML5? </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaDos')">  Estructura Básica de HTML5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaTres')">  Etiquetas de Estructura </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCuatro')">  Elementos HTML5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCinco')"> Atributos HTML que son globales a todos los elementos </a></li>
 				</ul>
 			</nav>
 		</section>
@@ -87,7 +87,7 @@
         	<article class = "imgEtiquetas"> 
            		<img  id = "htmlEstructura" src="img/html5-1841458_1280.png" width="343" height="384">
         	</article> 
-        </section> 
+        </section>
      </section> 
      <section class="subPrincipalLecturas">  
    		<section class="oculto" id="lecturaDos"> 
@@ -129,6 +129,125 @@
          	datos nos permiten cosas que hacemos cada momento, como identificarnos en  
             nuestra red social favorita.</p>  
             </article> 
+    	</section> 
+	</section>
+	 <section class="subPrincipalLecturas">  
+    	<section class="oculto" id="lecturaCuatro"> 
+    		 <article class="pSubPrincipalLecturas pMarginLCuatro" > 
+        	<p>Todos los elementos del estándar HTML5 están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. <br>
+				Estos son los nuevos elementos añadidos en HTML5
+			</p>  
+			<em>Secciones:</em><br>
+			< section > Define una sección en un documento <br>
+			< nav > Define una sección que solamente contiene enlaces de navegación <br>
+			< article > Define contenido autónomo que podría existir independientemente del resto del contenido <br>
+			< aside >Define contenido autónomo que podría existir independientemente  del resto del contenido <br>
+			< header >Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio web y una tabla de navegación de contenidos
+			<br>
+			< footer >Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación <br>
+			< main >Define el contenido principal o importante en el documento. Solamente existe un elemento < main > en el documento<br><br>
+			<em>Agrupación de Contenido:</em> <br>
+			< figure > Representa una figura ilustrada como parte del documento <br>
+			< figcaption > Representa la leyenda de una figura <br><br>
+			<em>Semántica a nivel texto:</em><br>
+			< data >Asocia un equivalente legible por máquina a sus contenidos. (Este elemento está sólamente en la versión de la  WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).<br>
+			< time >Representa un valor de fecha y hora; el equivalente legible por máquina puede ser representado en el atributo datetime.<br>
+			< mark > Representa texto resaltado con propósitos de referencia, es decir por su relevancia en otro contexto.<br>
+			< ruby >Representa contenidos a ser marcados con anotaciones ruby,  recorridos cortos de texto presentados junto al texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones actúan como una guía para la pronunciación, como el furigana Japonés.<br>
+			< rt >Representa el texto de una anotación ruby. <br>
+			< rp >Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.<br>
+			< bdi >Representa un texto que debe ser aislado de sus alrededores para el formateado bidireccional del texto.  Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida	<br>
+			< wbr >Representa una oportunidad de salto de línea, es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.<br><br>
+			<em>Contenido incrustado:</em><br>
+			< embed >Representa un punto de integración para una aplicación o contenido interactivo externo que por lo general no es HTML.<br>
+			< video >Representa un video, y sus archivos de audio y capciones asociadas, con la interfaz necesaria para reproducirlos. <br>
+			< audio >Representa un sonido o stream de audio.<br>
+			< source >Permite a autores especificar recursos multimedia alternativos para los elementos multimedia como  < video > o < audio > <br>
+		    < track >Permite a autores especificar una pista de texto temporizado para elementos multimedia como < video > o  < audio >.<br>
+		    < canvas >Representa un área de mapa de bits  en el que se pueden utilizar scripts para renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al vuelo.<br>
+		    < svg >Define una imagen vectorial embebida.<br>
+		    < math >Define una fórmula matemática<br><br>
+		    <em>Formularios:</em><br>
+		    < datalist >Representa un conjunto de opciones predefiniddas para otros controles.<br>
+			< keygen >Representa un control de par generador de llaves.<br>
+			< output >Representa el resultado de un cálculo.<br>
+			< progress >Representa el progreso de finalización de una tarea<br>
+			< meter >Representa la medida escalar (o el valor fraccionario) dentro de un rango conocido.<br><br>
+			<em>Elementos interactivos</em><br>
+			< details >Representa un widget desde el que un usuario puede obtener información o controles adicionales.<br>
+			< summary >Representa un resumen, título o leyenda para un elemento  < details > dado.<br>
+			< command >Representa un comando que un usuario puede invocar<br> 
+			< menu>Representa una lista de comandos .<br>
+            </article> 
+             <article class = "pSubPrincipalLecturasDer">
+             	<br><p> Click sobre la imagen para visualizarla en otra pestaña</p>
+             	<div class="gallery">
+				<a target="_blank" href="img/imgGaleryUno.png">
+    			 <img src="img/imgGaleryUno.png">
+  				</a>
+  					<div class="desc">Elemento raíz</div>
+  			</div>
+  				<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryDos.png">
+    				<img src="img/imgGaleryDos.png" >
+  				</a>
+  				<div class="desc">Metadados del documento</div>
+				</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryTres.png">
+    				<img src="img/imgGaleryTres.png" >
+  				</a>
+  				<div class="desc">Scripting</div>
+				</div>
+			<div class="gallery himgGalleryUno">
+  				<a target="_blank" href="img/imgGaleryCuatro.png">
+    				<img src="img/imgGaleryCuatro.png" >
+  				</a>
+  				<div class="desc 	">Secciones</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryCinco.png">
+    				<img src="img/imgGaleryCinco.png" >
+  				</a>
+  				<div class="desc">Agrupación de Contenido</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGalerySeis.png">
+    				<img src="img/imgGalerySeis.png" >
+  				</a>
+  				<div class="desc">Semántica a nivel de Texto</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGalerySiete.png">
+    				<img src="img/imgGalerySiete.png" >
+  				</a>
+  				<div class="desc">Ediciones</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryOcho.png">
+    				<img src="img/imgGaleryOcho.png" >
+  				</a>
+  				<div class="desc">Contenido incrustado</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryNueve.png">
+    				<img src="img/imgGaleryNueve.png" >
+  				</a>
+  				<div class="desc">Datos tabulares</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryDiez.png">
+    				<img src="img/imgGaleryDiez.png" >
+  				</a>
+  				<div class="desc">Formularios</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/imgGaleryOnce.png">
+    				<img src="img/imgGaleryOnce.png" >
+  				</a>
+  				<div class="desc">Elementos interactivos</div>
+			</div>
+          </article>
     	</section> 
 	</section>
 </section>

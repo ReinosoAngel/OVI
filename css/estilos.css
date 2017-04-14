@@ -262,12 +262,26 @@ em{
 	
 }
 
+.pSubPrincipalLecturasDer{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	margin-top: -47%;
+	margin-left: 50%;
+	width: 47%;
+	height: 172%;
+		overflow:  auto;
+}
 .pMarginLDos{
 	margin-top: -28%;
 }
 
 .pMarginLTres{
 	margin-top: -56%;
+}
+
+.pMarginLCuatro{
+	margin-top: -84%;
 }
 
 
@@ -301,8 +315,31 @@ img.alineadoTextoImagenCentro{
 	height: 70%;
 	max-width: 90%;
 	padding: 0px;	
-	vertical-align: top:;0px
+	vertical-align: top:0px;
 
+}
+
+div.gallery{
+	margin: 1px;
+   /* border: 1px solid #ccc;*/
+    float: left;
+    width: 200%;
+}
+div.gallery:hover{
+	/*border: 1px solid #777;*/
+}
+
+div.gallery img{
+	width: 200%;
+    height: auto;
+}
+div.desc {
+	padding: auto;
+    text-align: auto;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
@@ -583,4 +620,23 @@ img.alineadoTextoImagenCentro{
 	max-width: 100%;
 	max-height: 100%;
 		*/
+
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
