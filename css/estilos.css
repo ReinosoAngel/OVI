@@ -113,7 +113,7 @@ em{
 	height: 70%;
 	max-width: 100%;
 	padding: 0px;	
-	vertical-align: top: ;0px
+
 
 }
 
@@ -519,4 +519,50 @@ em{
 	}
 
 
+}
+
+.autores{
+	width: 98%;
+	height: 98%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 98%;
+	max-height: 98%;
+	/*overflow:  auto;*/
+	overflow: hidden;
+}
+.titAutores, .itemAutores{
+	background: rgba(255,255,255,.2);
+	-webkit-flex: none;
+	-moz-flex: none;
+	-ms-flex: none;
+	-o-flex: none;
+	flex: none;
+	margin-bottom: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	padding: 1px;
+
+}
+
+.itemGeneral{
+	width: 12%;
+}
+
+
+.itemCorreo{
+	width: 25%;
+}
+.AutorFoto{
+	/*
+	width: 100%;
+	height: 100%;
+	
+	max-width: 100%;
+	max-height: 100%;
+		*/
 }
