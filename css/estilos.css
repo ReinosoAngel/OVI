@@ -29,13 +29,11 @@ em{
 /*clase para el contenedor central donde se encuentra el aside y la secciópn principal*/
 .contenedor{
 	display: -webkit-box;
-	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 
 	 -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
 	flex-direction: row;
@@ -49,12 +47,10 @@ em{
 	display: inline-block;
 	*/
 	display: -webkit-box;
-	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
 	/*vertical-align: top;*/
@@ -65,7 +61,6 @@ em{
 	text-align:center;
 	min-width: 200px;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;  
     overflow: hidden;
@@ -83,7 +78,6 @@ em{
 	min-height: 200px;
 	
 	-webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;  
     overflow: hidden;
@@ -116,7 +110,7 @@ em{
 <<<<<<< HEAD
 
 =======
-	vertical-align: top: 0px;
+	vertical-align: top: ;0px
 >>>>>>> origin/master
 
 }
@@ -135,13 +129,11 @@ em{
 .tituloHtml{	
 	text-align: center;
 	font-style: oblique;
-	-webkit-border-radius: 0.3em;
-	        border-radius: 0.3em;
+	border-radius: 0.3em;
 	margin: 0 auto;
 	min-height: 40px;
     padding-top:10px;
     -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
 }
@@ -153,21 +145,17 @@ em{
 	font-weight: bold;
 
 	-webkit-box-pack: center;
-	-webkit-justify-content: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	-webkit-box-align: center;
-	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
 	
 	display: -webkit-box;
-	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
@@ -205,8 +193,7 @@ em{
 .tSubPrincipal{
 	background: #FFFFFF;
 	border: 1px solid #000000;
-	-webkit-border-radius: 6px;
-	        border-radius: 6px;
+	border-radius: 6px;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 0.25em;
@@ -218,8 +205,7 @@ em{
 .pSubPrincipal{
 	background: #FFFFFF;
 	border: 1px solid #000000;
-	-webkit-border-radius: 6px;
-	        border-radius: 6px;
+	border-radius: 6px;
 	font-size: 14px;
 	padding: 0.125em;
 	width: 98.5%;
@@ -233,8 +219,7 @@ em{
 .contenedorLecturas{
 	height: 100%;
 	display: flex;
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */    /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;  /* TWEENER - IE 10 */
 	display: -webkit-flex; /* NEW - Chrome */
 	-webkit-box-direction: normal; 
@@ -244,7 +229,7 @@ em{
 
 .subPrincipalLecturas{
 	height: 40%;
-	max-height: 49%
+	max-height: 49%;
 	max-width: 100%;
 	margin-top: 1%;
     margin-left: 2.5%;
@@ -316,7 +301,7 @@ img.alineadoTextoImagenCentro{
 	height: 70%;
 	max-width: 90%;
 	padding: 0px;	
-	vertical-align: top:0px;
+	vertical-align: top:;0px
 
 }
 
@@ -326,8 +311,7 @@ img.alineadoTextoImagenCentro{
 .margenes{
 	margin: 0 auto;
 	max-width: 1000px;
-	-webkit-border-radius: 0.5em;
-	        border-radius: 0.5em;
+	border-radius: 0.5em;
 	margin-top: 3px;
 	position: relative;
 }
@@ -396,8 +380,7 @@ img.alineadoTextoImagenCentro{
 	        flex-direction: row;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
-    -webkit-box-shadow: 0px 5px 2px 0px #ccc;
-            box-shadow: 0px 5px 2px 0px #ccc;
+    box-shadow: 0px 5px 2px 0px #ccc;
 }
 
 
@@ -417,8 +400,7 @@ img.alineadoTextoImagenCentro{
 	display: block;
 	padding: 5px 20px;
 	text-decoration: none; 
-	-webkit-border-radius: 0.5em 0.5em 0em 0em; 
-	        border-radius: 0.5em 0.5em 0em 0em; 
+	border-radius: 0.5em 0.5em 0em 0em; 
 	border: 1px solid #005883;   
 	background: #FFFFFF;
 }
@@ -441,8 +423,13 @@ img.alineadoTextoImagenCentro{
   /*  border: 1px solid #c3c3c3;
     display: -webkit-flex; /* Safari */
   /*  -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-   flex-direction: column;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
 }
 
 
@@ -456,7 +443,9 @@ img.alineadoTextoImagenCentro{
 	 width: 950px;
     height: 30px;
     margin-left: 25px;
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     -webkit-flex-grow: 1;
 }
 
@@ -526,8 +515,7 @@ img.alineadoTextoImagenCentro{
 		padding-left: 1px;
 	}
 	.menu li a{
-		-webkit-border-radius: 0em 0em 0em 0em;
-		        border-radius: 0em 0em 0em 0em; 
+		border-radius: 0em 0em 0em 0em; 
 		padding: 3px 5px;
 		min-width: 50px;
 	}
@@ -544,9 +532,14 @@ img.alineadoTextoImagenCentro{
 	width: 98%;
 	height: 98%;
 	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	max-width: 98%;
 	max-height: 98%;
 	/*overflow:  auto;*/
@@ -554,15 +547,21 @@ img.alineadoTextoImagenCentro{
 }
 .titAutores, .itemAutores{
 	background: rgba(255,255,255,.2);
-	-webkit-flex: none;
 	-moz-flex: none;
 	-ms-flex: none;
 	-o-flex: none;
-	flex: none;
+	-webkit-box-flex: 0;
+	        flex: none;
 	margin-bottom: 1%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 12px;
 	padding: 1px;
 
