@@ -304,7 +304,17 @@ em{
 	font-weight: bold;
 	padding: 0.25em;
 	width: 47%;
-	max-height: 10%
+	max-height: 10%;
+}
+
+.altoAnchoAct{
+	margin-top: -55%;
+	margin-left: 50%;
+}
+
+.marginActUno{
+	margin-top: 0%;
+	margin-left: 50%;
 }
 
 .actividad li {
