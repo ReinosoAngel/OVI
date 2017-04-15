@@ -107,12 +107,6 @@ em{
 	height: 70%;
 	max-width: 100%;
 	padding: 0px;	
-<<<<<<< HEAD
-
-=======
-	vertical-align: top: ;0px
->>>>>>> origin/master
-
 }
 
 
@@ -313,7 +307,7 @@ img.alineadoTextoImagenCentro{
 	max-width: 1000px;
 	border-radius: 0.5em;
 	margin-top: 3px;
-	position: relative;
+/*	position: relative;*/
 }
 /*Clase que controla la letra principal de los contenedore*/
 .principalLetra{	
