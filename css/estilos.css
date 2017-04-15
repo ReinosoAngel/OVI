@@ -227,28 +227,34 @@ em{
 
 }
 
-.subPrincipalLecturas{
-	height: 40%;
+.subLecAct{
 	max-height: 49%;
 	max-width: 100%;
 	margin-top: 1%;
     margin-left: 2.5%;
-   
+    display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction:column;
+    -webkit-box-direction: normal; 
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;	
+	    -ms-flex-positive: 1;	
+	        flex-grow: 1;	
+	-webkit-flex-grow: 1; /* Safari 6.1+ */
 }
 
-
-.tSubPrincipalLecturas{
-	background: #FFFFFF;
-	border: 1px solid #000000;
-	border-radius: 6px;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 0.25em;
-	text-align: center;
-	width: 98.5%;
-	max-height: 10%;
+.altoLec{
+	height: 40%;
 }
-.pSubPrincipalLecturas{
+.altoAct{
+	height: 45%;
+}
+
+.pSubLecAct{
 	background: #FFFFFF;
 	border: 1px solid #000000;
 	border-radius: 6px;
@@ -268,26 +274,41 @@ em{
 	border-radius: 6px;
 	font-size: 14px;
 	padding: 0.125em;
-	margin-top: -43%;
+	margin-top: -46%;
 	margin-left: 50%;
 	padding: 0.25em;
 	width: 47%;
 	height: 172%;
-		overflow:  auto;
+	overflow:  auto;
 }
 .pMarginLDos{
-	margin-top: -26%;
+	margin-top: -28%;
 }
 
 .pMarginLTres{
-	margin-top: -52%;
+	margin-top: -56%;
 }
 
 .pMarginLCuatro{
-	margin-top: -78%;
+	margin-top: -84%;
 }
 .pMarginLCinco{
-	margin-top: -104%;
+	margin-top: -112%;
+}
+
+.tSubActividad{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0.25em;
+	width: 47%;
+	max-height: 10%
+}
+
+.actividad li {
+	list-style:none;
 }
 
 
@@ -307,6 +328,7 @@ em{
 
 img.alineadoTextoImagenCentro{
   vertical-align: middle;
+
     /* Ojo vertical-align: text-middle no existe*/
 }
 #htmlLecturas{

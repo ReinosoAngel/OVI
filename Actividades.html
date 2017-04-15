@@ -1,45 +1,83 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE hmtl>
+<html lang = "es">
 <head>
-	<title>OVI HTML5</title>
-	<meta charset="utf-8">
-	<meta description="Este OVI permite revisar los Tag's de HTML5">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title> OVI HTML5 </title>
+    <meta charset="utf-8">
+    <meta description="Este OVI permite revisar los Tag's de HTML5">
+    <script type="text/javascript" src="js/seccionesVisibles.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
 </head>
-
 <body>
-	<header class="margenes">
-		<section>
-			<img  id="unadLogo" src="img/logo.png" alt="logo" width="350px" height="56px">
-			<h1 class="tHeader"> O.V.I. DISEÑOS DE SITIOS WEB</h1>		
-		</section>
-		<section>
-			<h2 class="tituloHtml principalLetra principalFondo">HTML 5</h2>
-		</section>	
-		<section id="menuH">
-			<input type="checkbox" id="btn_menu">
-			<label for="btn_menu">
-				<img src="img/menu96negro.png" alt="menu">			
-			</label>
-			<nav class="menu">
-				<ul >
-					<li><a class="principalLetra" href="index.html">Inicio</a></li>
-					<li><a class="principalLetra" href="Historia.html">Historia</a></li>
-					<li><a class="principalLetra" href="Tags.html">Tag's</a></li>
-					<li><a class="principalLetra" href="Lecturas.html">Lecturas</a></li>
-					<li><a class="principalLetra" href="Multimedia.html">Multimedia</a></li>
-					<li><a class="menuSelecionado principalLetra" href="Actividades.html">Actividades</a></li>
-					<li><a class="principalLetra" href="Autores.html">Autores</a></li>
-				</ul>
-			</nav>
-		</section>
-	</header>
-	
-	<section class="contenedor principalFondo margenes">
-	</section>
-	<footer class="principalFondo margenes">
-		<h3 class="tituloHtml principalLetra">Elaborado por: Grupo 11 Diseño de Sitios WEB</h6>
-	</footer>
-</body>
+    <header class = "margenes"> 
+    <section>
+            <img  id="unadLogo" src="img/logo.png" alt="logo" width="350px" height="56px">
+            <h1 class="tHeader"> O.V.I. DISEÑOS DE SITIOS WEB</h1>      
+        </section>
+        <section>
+            <h2 class="tituloHtml principalLetra principalFondo">HTML 5</h2>
+        </section>
+<section id="menuH">
+            <input type="checkbox" id="btn_menu">
+            <label for="btn_menu">
+                <img src="img/menu96negro.png" alt="menu">          
+            </label>
+            <nav class="menu">
+                <ul >
+                    <li><a class="principalLetra" href="index.html">Inicio</a></li>
+                    <li><a class="principalLetra" href="Historia.html">Historia</a></li>
+                    <li><a class="principalLetra" href="Tags.html">Tag's</a></li>
+                    <li><a class="principalLetra"  href="Lecturas.html">Lecturas</a></li>
+                    <li><a class="principalLetra" href="Multimedia.html">Multimedia</a></li>
+                    <li><a class="menuSelecionado principalLetra" href="Actividades.html">Actividades</a></li>
+                    <li><a class="principalLetra" href="Autores.html">Autores</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+<section class="contenedorLecturas principalFondo margenes">
+    <section class="principal principalTamanoLecturas">
+        <section id="subMenuL">
+            <nav class = "subMenu">
+                <ul >
+                    <li> <a class = "letraSubItem" href = "javascript:MostrarActividad('actividadUno')" >Actividad 1 </a></li>
+                    <li> <a class = "letraSubItem" href = "javascript:MostrarActividad('actividadDos')">Actividad 2 </a></li>
+                    <li> <a class = "letraSubItem" href = "javascript:MostrarActividad('actividadTres')">Actividad 3 </a></li>
+                </ul>
+            </nav>
+        </section>
+    <section class="subLecAct altoAct">
+        <section id="actividadUno">  
+            <h1 class="tSubActividad">1.1 Estructura Básica</h1>
+            <article class="pSubLecAct" > 
+                <p>
+                    A continuación se desarrollara una práctica y posteriormente se asignara una actividad de acuerdo a lo aprendido
+                </p>
+               <p>
+                    Este ejercicio consiste en diseñar una plantilla de documento HTML para iniciar rápidamente todas nuestras páginas.
+                    <ul  class = "actividad">
+                        <li>
+                            <em>1- </em> Para comenzar a escribir código, utilizaremos un editor de texto cualquiera, por ejemplo sublime text
+                        </li>
+                        <li><em>2- </em> Como cualquier página HTML, constará de la cabecera y el cuerpo del documento, ambas partes situadas entre la etiqueta de apertura < html> dentro de la etiqueta de apertura < html > le agregaremos el atributo lang = "es" (este es para la definición del lenguaje)"actividad" y su análogia de cierre < /html> </li>
+                        <li> <em>3- </em> Para que nuestra página tome caracteres especiales como ñ o tíldes es necesario agregarle la codificación correspondiente despúes de nuestra etiqueta < title > agregaremos la etiqueta < meta > con el atributo charset = "utf - 8"</em></li>
+                        <li> <em>4- </em> La cabecera y el cuerpo del documento serían <a target="_blank" href="img/actividades/actividadUno.pngx"><img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/actividades/actividadUno.png" border = "1"></a></li>
+                        <li> <em>5- </em> Guardaremos el documento con el nombre que gusten y la extensión .html "Documento.html"</li>
+                        <li> <em>6- </em> Por lo tanto nuestro documento se visualizará de la siguiente manera </li>
+                        <li> <a target="_blank" href="img/actividades/documento.png"><img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/actividades/documento.png" style="border:1px solid #333333;" ></a></li>
+                    </ul>
+                </p>
+                <p><em>Actividad</em></p>
+                <p>Crear una página donde el título sea Lenguajes de Programación, además que muestre los nombres de 5 lenguajes de programación, separados por un saldo de línea</p>
+            </article> 
+            </section>
+     </section> 
+    
+     </section>
+</section>
+<footer class="principalFondo margenes">
+        <h3 class="tituloHtml principalLetra">Elaborado por: Grupo 11 Diseño de Sitios WEB</h6>
+    </footer>
+<body>
 </html>
