@@ -1,0 +1,306 @@
+#tag{
+	border-radius: 0.5em;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-pack: center;
+	    -webkit-box-pack: center;
+	        justify-content: center;
+	-ms-flex-align: center;
+	    -webkit-box-align: center;
+	        align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
+	height: 100%;
+	min-height: 100%;
+	-ms-flex-align: stretch;
+	    -webkit-box-align: stretch;
+	        align-items: stretch;
+	-ms-flex-line-pack: stretch;
+	    align-content: stretch;
+	-ms-flex-item-align: auto;
+	    align-self: auto;
+	-webkit-box-flex: 1;	
+	-ms-flex-positive: 1;	
+	        flex-grow: 1;	
+	-webkit-flex-grow: 1; /* Safari 6.1+ */
+}
+
+#tagAside{
+	width: 20%;
+	height: 98%;
+	min-height: 98%;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	overflow: auto;
+}
+
+
+
+#tagMarco{
+	width: 70%;
+	height: 100%;
+	min-height: 100%;
+	min-width:  70%;
+	overflow: auto;
+	/*
+	background: url("http://lorempixel.com/500/300");
+	/*margin: 1em auto;	*/
+	background: transparent;
+	display: -ms-flexbox;	
+	display: -webkit-box;	
+	display: flex;
+	
+	    -ms-flex-align: stretch;
+	        -webkit-box-align: stretch;
+	            align-items: stretch;
+	            
+	 -ms-flex-direction: column;
+	     -webkit-box-orient: vertical;
+	     -webkit-box-direction: normal;
+	         flex-direction: column;
+
+	
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	
+	/*oculta lo que quede por fuera del contenedor*/
+	overflow: hidden;
+	-ms-flex: none;
+	    -webkit-box-flex: 0;
+	        flex: none;
+}
+
+#tagEjemplo{ 
+
+	height: 50%;
+	min-height: 50%;
+	-ms-flex: none; 
+	    -webkit-box-flex: 0; 
+	        flex: none;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-pack: center;
+	    -webkit-box-pack: center;
+	        justify-content: center;
+	-ms-flex-align: center;
+	    -webkit-box-align: center;
+	        align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	            flex-direction: row;
+	-ms-flex-direction: row;
+	-ms-flex-align: stretch;
+	    -webkit-box-align: stretch;
+	        align-items: stretch;
+	-ms-flex-line-pack: stretch;
+	    align-content: stretch;
+	-ms-flex-item-align: auto;
+	    align-self: auto;
+
+	 background: transparent;
+}
+
+#imgTitulo{
+	background: transparent;
+	border-radius: 6px;
+	height: 100%;
+	width: 30%;
+}
+
+#taghtmlLogo{
+	max-height: 85%;
+	max-width: 100%;
+}
+
+#iniDescripcion{
+	overflow: auto;
+	height: 30%;
+	width: 100%;
+	background: transparent;
+
+	-ms-flex: none; 
+	    -webkit-box-flex: 0; 
+	        flex: none;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	 
+}
+
+#jsDescripcion{
+	height: 5%;
+	background: transparent;
+	overflow: auto;
+	width: 100%;
+}
+
+#titEjemplo{
+	overflow: auto;
+	margin: 1px;
+
+}
+
+#titDescripcion{
+	overflow: auto;
+	margin: 2px;
+}
+
+#detEjemplo{
+	height: 60%;	
+	background: transparent;
+	margin: 1px;
+
+}
+
+#titMarco{
+	height: 5%;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	width: 100%;
+}
+
+#desMarco{
+	background: transparent;
+	height: 100%;
+	width: 70%;
+}
+/*
+.arbol ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+
+}
+*/
+.arbol{
+	background: #FFFFFF;
+	padding: 1em;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	height: 100%;
+	overflow: auto;
+}
+
+.tagPrincipal{
+	margin:5px;
+	padding: 2px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	width: 97.5%;
+	max-height: 100%;
+	overflow:  auto;
+
+}
+
+.tagSubPrincipal{
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	font-size: 14px;
+	padding: 0.125em;
+	width: 98.5%;
+	height: 90%;
+	padding: 0.25em;
+	max-height: 90%;
+	overflow:  auto;
+	
+}
+
+
+
+.arbol ul,
+.arbol li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+.arbol input
+{
+    position: absolute;
+    opacity: 0;
+}
+ 
+.arbol
+{
+    font: normal 11px, Arial, Sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+}
+/*
+.arbol input ~ ul
+{
+    display: none;
+}
+ */
+.arbol label
+{    
+    margin: 0 0px 0;
+}
+
+.arbol ul{
+    margin: 0 0 0;
+}
+
+.arbol a{
+    margin: 0 10px 0;
+}
+
+
+.arbol input:disabled + label
+{
+    cursor: default;
+    opacity: .6;
+}
+ /*
+.arbol input:checked:not(:disabled) ~ ul
+{
+    display: block;
+}
+ */
+.arbol label,
+.arbol label::before
+{
+    background: url("../img/folderArbol.png") no-repeat;
+    background-position: 0px 0;
+    cursor: pointer;
+    
+}
+
+.arbol label::before
+{
+    content: "";
+    width: 16px;
+    margin: 0 22px 0 0;
+    vertical-align: middle;
+    background-position: 0 -32px;
+}
+
+ 

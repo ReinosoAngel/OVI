@@ -6,6 +6,8 @@
 	<meta description="Este OVI permite revisar los Tag's de HTML5">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/tag.css">
+	<script type="text/javascript" src="js/tag.js"></script>
 </head>
 
 <body>
@@ -35,8 +37,89 @@
 			</nav>
 		</section>
 	</header>
-	
 	<section class="contenedor principalFondo margenes">
+			
+		<header class="principalFondo" id="tag">
+			<aside id="tagAside">
+				<nav class="arbol">
+					<ul class="principalLetra" >
+				        <li>
+				        	<input type="checkbox" id="eg"/>
+				        	<label for="eg">Estructura General</label>
+				            <ul>
+				            	<li><a class="principalLetra" href="javascript:ActualizarTag('tagDoc');">!DOCTYPE</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagHtml');">html</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagHead');">head</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagBody');">body</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagMeta');">meta</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagTitulo')">title</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagLink')">link</a></li>
+				        	</ul>
+						</li>
+						<li>
+				        	<input type="checkbox" id="ec" />
+				        	<label for="ec">Estructura del Cuerpo</label>
+				            <ul>
+				            	<li><a class="principalLetra" href="javascript:ActualizarTag('tagHeader')">header</a></li>
+				            	<li><a class="principalLetra" href="javascript:ActualizarTag('tagNav')">nav</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagSection')">section</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagArticulo')">article</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagAside')">aside</a></li>
+								<li><a class="principalLetra" href="javascript:ActualizarTag('tagFooter')">footer</a></li>								
+				        	</ul>
+						</li>
+						<!--
+						<li>
+				        	<input type="checkbox" id="ph" />
+				        	<label for="ph">Otras de HTML5</label>
+				            <ul>
+				            	<li><a class="principalLetra" href="#" onclick="">hgroup</a></li>				            
+				        	</ul>
+						</li>
+						-->
+					</ul>
+
+				</nav>
+			</aside>
+
+			<header id="tagMarco">
+				
+				<header id="jsDescripcion">
+					<p id="titDescripcion"  class="tagPrincipal">
+						Descripción
+					</p>
+				</header>
+				
+				<header id="iniDescripcion">
+					
+					<header id ="desMarco">
+						<p id="jsDetalle" class="tagSubPrincipal">
+							
+						</p>							
+					</header>
+					<header id="imgTitulo">
+						<img id="taghtmlLogo" src="img/html5-1841458_1280.png" width="143" height="184">
+					</header>
+				</header>
+					
+				<!---->
+				<header id="titMarco">
+					<p  id="titEjemplo" class="tagPrincipal">
+						Ejemplo
+					</p>
+				</header>
+
+				<header id="detEjemplo"  >
+					<p id="jsEjemplo" class="tagSubPrincipal">
+								
+					</p>
+				</header>	
+
+			</header>
+
+
+		</header>
+
 	</section>
 	<footer class="principalFondo margenes">
 		<h3 class="tituloHtml principalLetra">Elaborado por: Grupo 11 Diseño de Sitios WEB</h6>
