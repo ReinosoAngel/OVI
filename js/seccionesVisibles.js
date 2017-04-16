@@ -29,3 +29,28 @@ function MostrarOcultar(id)
 	lectura(opciones[4],opciones[0],opciones[1],opciones[2],opciones[3]);
 	}
 }  
+
+var opcActividad = ["actividadUno", "actividadDos", "actividadTres"];
+
+function actividad(visualiza , ocultaUno, ocultaDos){
+	document.getElementById(visualiza).style.display = "block";
+	document.getElementById(ocultaUno).style.display = "none"
+	document.getElementById(ocultaDos).style.display = "none"
+}
+
+function MostrarActividad(id)  
+{  
+
+	if(id == opcActividad[0]){
+		actividad(opcActividad[0],opcActividad[1],opcActividad[2]);
+	}
+	if(id == opcActividad[1]){
+		actividad(opcActividad[1],opcActividad[0],opcActividad[2]);
+	}
+	if(id == opcActividad[2]){
+		actividad(opcActividad[2],opcActividad[0],opcActividad[1]);
+	}
+}  
+
+
+

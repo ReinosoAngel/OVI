@@ -41,17 +41,17 @@
 		<section id="subMenuL">
 			<nav class = "subMenu">
 				<ul >
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaUno')" >  ¿Que es HTML5? </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaDos')">  Estructuras Básicas de HTML5 </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaTres')">  Etiquetas de Estructura </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCuatro')">  Lectura 4 </a></li>
-					<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCinco')">  Lectura 5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaUno')" >  ¿Que es HTML5? </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaDos')">  Estructura Básica de HTML5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaTres')">  Importancia de HTML5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCuatro')">  Elementos HTML5 </a></li>
+			<li> <a class = "letraSubItem" href = "javascript:MostrarOcultar('lecturaCinco')"> Atributos HTML que son globales a todos los elementos </a></li>
 				</ul>
 			</nav>
 		</section>
-	<section class="subPrincipalLecturas">
+	<section class="subLecAct altoLec">
 		<section id="lecturaUno"> 	
-			<article class="pSubPrincipalLecturas" > 
+			<article class="pSubLecAct" > 
            		<p>HTML5 es un lenguaje markup (de hecho, las siglas de HTML significan Hyper Text Markup Language) usado para estructurar y presentar el contenido para la web. Es uno de los aspectos fundamentales para el funcionamiento de los sitios, pero no es el primero. Es de hecho la quinta revisión del estándar que fue creado en 1990.
            		</p> 
            		<p>
@@ -87,48 +87,204 @@
         	<article class = "imgEtiquetas"> 
            		<img  id = "htmlEstructura" src="img/html5-1841458_1280.png" width="343" height="384">
         	</article> 
-        </section> 
+        </section>
      </section> 
-     <section class="subPrincipalLecturas">  
+     <section class="subLecAct altoLec">  
    		<section class="oculto" id="lecturaDos"> 
-       	    <article class="pSubPrincipalLecturas pMarginLDos" > 
+       	    <article class="pSubLecAct pMarginLDos" > 
         	    <p>HTML5 tiende a ser una estructura muy semántica, sus etiquetas son muy básicas, ahora realizaremos una estructura básica de HTML5. </p> 
    	           	<p>
    	           		<ul>
-   	           			<li><em>1- </em> se debe colocar él <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/doctype.png" border = "1">   es una instrucción especial que va al inicio de nuestro documento html y que permite al navegador entender en que versión de HTML estamos utilizando</li>
-   	           			<li><em>2-</em> después la etiqueta html seguido de la etiqueta lang para el idioma  <img src="img/lang.png" border = "1">
+   	           			<li><em>1- </em> se debe colocar él <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/doctype.png" border = "1">   es una instrucción especial que va al inicio de nuestro documento html y que permite al navegador entender en que versión de HTML estamos utilizando</li>
+   	           			<li><em>2-</em> después la etiqueta html seguido de la etiqueta lang para el idioma  <img src="img/lecturas/lang.png" border = "1">
    	           			</li>
-   	           			<li><em>3- </em>luego la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/head.png" border = "1" >la cual provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos</li>
-   	           			<li><em>4- </em> ahora el título <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/title.png" border = "1"> la cual es para darle título a la página</li>
-   	           			<li><em>5- </em>la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/meta.png" border = "1"> en la cual le decimos al navegador que tipo de codificado es el documento html, de preferencia se usa el UTF-8 que acepta acentos y ñ con más compatibilidad</li>
-   	           			<li><em>6- </em> las etiquetas <img class = "alineadoTextoImagenCentro" class = "alineadoTextoImagenCentro" id = "htmlLecturas"src="img/link.png" border = "1"> son las que especifican relación entre el documento actual y un recurso externo. </li>
+   	           			<li><em>3- </em>luego la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/head.png" border = "1" >la cual provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos</li>
+   	           			<li><em>4- </em> ahora el título <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/title.png" border = "1"> la cual es para darle título a la página</li>
+   	           			<li><em>5- </em>la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/meta.png" border = "1"> en la cual le decimos al navegador que tipo de codificado es el documento html, de preferencia se usa el UTF-8 que acepta acentos y ñ con más compatibilidad</li>
+   	           			<li><em>6- </em> las etiquetas <img class = "alineadoTextoImagenCentro" class = "alineadoTextoImagenCentro" id = "htmlLecturas"src="img/lecturas/link.png" border = "1"> son las que especifican relación entre el documento actual y un recurso externo. </li>
    	           		</ul>
    	           	</p>  
-            	<p> Ahora es el turno del cuerpo de nuestra página o BODY representa el contenido del documento HTML, solo puede haber un elemento <img id = "htmlLecturas" src="img/body.png" border = "1" > en un documento
+            	<p> Ahora es el turno del cuerpo de nuestra página o BODY representa el contenido del documento HTML, solo puede haber un elemento <img id = "htmlLecturas" src="img/lecturas/body.png" border = "1" > en un documento
 				<p>
 					<ul >
-						<li><em>1- </em>La etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/header.png" border = "1"> es la cabecera donde va el nombre del sitio,el logotipo y la descripción de la página por ejemplo <img id = "htmlLecturas" src="img/ejemploHeader.png" border = "1"></li>
-						<li><em>2- </em> pasamos por el contenido o <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/section.png" border = "1"> representa una sección genérica de un documento, sirve para determinar que contenido corresponde a que parte de un esquema</li>
-						<li><em>3- </em> dentro del section usaremos la etiqueta <img id = "htmlLecturas" src="img/tituloH2.png" border = "1"> de título y el contenido en etiquetas <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/etiquetaP.png" border = "1"> dentro de una etiqueta llamada  <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/article.png" border = "1"> para articulos o post.</li>
-						<li><em>4- </em> otra etiqueta interesante es <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/aside.png" border = "1"> es una barra lateral y muy fácil de implementar</li>
+						<li><em>1- </em>La etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/header.png" border = "1"> es la cabecera donde va el nombre del sitio,el logotipo y la descripción de la página por ejemplo <img id = "htmlLecturas" src="img/lecturas/ejemploHeader.png" border = "1"></li>
+						<li><em>2- </em> pasamos por el contenido o <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/section.png" border = "1"> representa una sección genérica de un documento, sirve para determinar que contenido corresponde a que parte de un esquema</li>
+						<li><em>3- </em> dentro del section usaremos la etiqueta <img id = "htmlLecturas" src="img/lecturas/tituloH2.png" border = "1"> de título y el contenido en etiquetas <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/etiquetaP.png" border = "1"> dentro de una etiqueta llamada  <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/article.png" border = "1"> para articulos o post.</li>
+						<li><em>4- </em> otra etiqueta interesante es <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/aside.png" border = "1"> es una barra lateral y muy fácil de implementar</li>
 					</ul>
-					</p>Por último con el pie de página con la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/footer.png" border = "1"> </p>
+					</p>Por último con el pie de página con la etiqueta <img class = "alineadoTextoImagenCentro" id = "htmlLecturas" src="img/lecturas/footer.png" border = "1"> </p>
 					<p> <em>Ahora veamos nuestro código completo </em></p>
              </article> 
              <article class = "imgEtiquetas"> 
-				<img id = "htmlEstructura" src="img/estructuraBasica.png" border = ""2>
+				<img id = "htmlEstructura" src="img/lecturas/estructuraBasica.png" border = ""2>
         	</article> 
     	</section> 
      </section>    
-     <section class="subPrincipalLecturas">  
+     <section class="subLecAct altoLec">  
     	<section class="oculto" id="lecturaTres"> 
-    		 <article class="pSubPrincipalLecturas pMarginLTres" > 
-        	<p>Las bases de datos permiten guardar la información de manera organizada y  
-         	acceder a ella en cualquier momento. Para poder usar una base de datos en  
-        	nuestra Web precisamos de un lenguaje de alto nivel como PHP. Las bases de  
-         	datos nos permiten cosas que hacemos cada momento, como identificarnos en  
-            nuestra red social favorita.</p>  
+    		 <article class="pSubLecAct pMarginLTres" > 
+        	<p>Entender HTML5 es entender que hoy nos conectamos desde teléfonos móviles, tabletas, eBooks, netbooks, computadores y otra gama de dispositivos. 
+			Es entender que se acabaron los web master y hoy hablamos de equipos multidisciplinarios de empresas de tecnología que cuentan con frontends, backends, sysadmins, mobiledevs, comunity manager y arquitectos de información en los proyectos que están reinventando mercados y generando tráfico e ingresos.</p>  
+			<p>Todas las empresas gigantes de la web como Microsoft, Google, Apple, Adobe, Facebook, Yahoo!, Mozilla entre otras, hoy se mueven a través de HTML5, lo apoyan y tienen propuestas que los hacen competir en código en el navegador.<br><br>
+			Este tipo de lenguaje es uno de los más evolucionados que existe en estos momentos por lo que puede aportar una serie de ventajas interesantes para los portales al trabajar con un sistema que se encuentra en la actualidad.
+			</p>
+			<p>El lenguaje HTML5 se encuentra disponible para la gran mayoría de navegadores tanto convencionales como web móvil.<br>
+		<div class="gallery">
+				<a target="_blank" href="img/lecturas/navegadores.jpg">
+    			 <img src="img/lecturas/navegadores.jpg">
+  				</a>
+  			</div>
+  		</p>
             </article> 
+             <article class = "pSubPrincipalLecturasDer">
+             	<p>El crecimiento de HTML5 sin duda este es un dato que da peso al uso de este tipo de lenguaje ya que entre otras afirmaciones, se observa que en un periodo breve de tiempo el 80% de las aplicaciones en plataformas móviles llevaran HTML5.</p>
+             	<p>
+             		<em>¡HTML5 es una versión para todos! </em><br><br>
+					Ahora que los dispositivos y las computadoras de escritorio tienen browsers inteligentes, los diseñadores web no se tienen que preocupar por adaptar sus sitios y aplicaciones web muchas veces. Pueden generar una sola versión del contenido y tener la confianza de que en todos lados se verá correctamente. Además cuando alguien invente un nuevo dispositivo, ¡todos los sitios con HTML5 serán automáticamente compatibles!
+
+             	</p>
+             	<p> En conclusión: Al hablar de HTML5 estamos hablando realmente de una familia de tecnologías que en combinación nos proporcionan una nueva serie de posibilidades al momento de construir aplicaciones y sitios web. Concretamente esta familia está conformada del ya conocido HTML, Javascript y CSS3, los cuales anteriormente ya eran utilizados al construir nuestros sitios, sin embargo, con HTML5 es un tanto distinto ya que son soportados de forma nativa, es decir, al definir un script ya no es necesario establecer su tipo ya que se sobreentenderá que utilizaremos Javascript, lo mismo sucede con los estilos ya que se tomarán como CSS3 por defecto.</p>
+             </article>
+    	</section> 
+	</section>
+	 <section class="subLecAct altoLec">  
+    	<section class="oculto" id="lecturaCuatro"> 
+    		 <article class="pSubLecAct pMarginLCuatro" > 
+        	<p>Todos los elementos del estándar HTML5 están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. <br>
+				Estos son los nuevos elementos añadidos en HTML5
+			</p>  
+			<em>Secciones:</em><br>
+			< section > Define una sección en un documento <br>
+			< nav > Define una sección que solamente contiene enlaces de navegación <br>
+			< article > Define contenido autónomo que podría existir independientemente del resto del contenido <br>
+			< aside >Define contenido autónomo que podría existir independientemente  del resto del contenido <br>
+			< header >Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio web y una tabla de navegación de contenidos
+			<br>
+			< footer >Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación <br>
+			< main >Define el contenido principal o importante en el documento. Solamente existe un elemento < main > en el documento<br><br>
+			<em>Agrupación de Contenido:</em> <br>
+			< figure > Representa una figura ilustrada como parte del documento <br>
+			< figcaption > Representa la leyenda de una figura <br><br>
+			<em>Semántica a nivel texto:</em><br>
+			< data >Asocia un equivalente legible por máquina a sus contenidos. (Este elemento está sólamente en la versión de la  WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).<br>
+			< time >Representa un valor de fecha y hora; el equivalente legible por máquina puede ser representado en el atributo datetime.<br>
+			< mark > Representa texto resaltado con propósitos de referencia, es decir por su relevancia en otro contexto.<br>
+			< ruby >Representa contenidos a ser marcados con anotaciones ruby,  recorridos cortos de texto presentados junto al texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones actúan como una guía para la pronunciación, como el furigana Japonés.<br>
+			< rt >Representa el texto de una anotación ruby. <br>
+			< rp >Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.<br>
+			< bdi >Representa un texto que debe ser aislado de sus alrededores para el formateado bidireccional del texto.  Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida	<br>
+			< wbr >Representa una oportunidad de salto de línea, es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.<br><br>
+			<em>Contenido incrustado:</em><br>
+			< embed >Representa un punto de integración para una aplicación o contenido interactivo externo que por lo general no es HTML.<br>
+			< video >Representa un video, y sus archivos de audio y capciones asociadas, con la interfaz necesaria para reproducirlos. <br>
+			< audio >Representa un sonido o stream de audio.<br>
+			< source >Permite a autores especificar recursos multimedia alternativos para los elementos multimedia como  < video > o < audio > <br>
+		    < track >Permite a autores especificar una pista de texto temporizado para elementos multimedia como < video > o  < audio >.<br>
+		    < canvas >Representa un área de mapa de bits  en el que se pueden utilizar scripts para renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al vuelo.<br>
+		    < svg >Define una imagen vectorial embebida.<br>
+		    < math >Define una fórmula matemática<br><br>
+		    <em>Formularios:</em><br>
+		    < datalist >Representa un conjunto de opciones predefiniddas para otros controles.<br>
+			< keygen >Representa un control de par generador de llaves.<br>
+			< output >Representa el resultado de un cálculo.<br>
+			< progress >Representa el progreso de finalización de una tarea<br>
+			< meter >Representa la medida escalar (o el valor fraccionario) dentro de un rango conocido.<br><br>
+			<em>Elementos interactivos</em><br>
+			< details >Representa un widget desde el que un usuario puede obtener información o controles adicionales.<br>
+			< summary >Representa un resumen, título o leyenda para un elemento  < details > dado.<br>
+			< command >Representa un comando que un usuario puede invocar<br> 
+			< menu>Representa una lista de comandos .<br><br>
+			<p>
+						<a  class="referencias" href="http://juanca.e-lexia.com/2014/10/origen-del-html/" target="_blank">
+							Tomado de: http://juanca.e-lexia.com/2014/10/origen-del-html/
+						</a>
+					</p>
+            </article> 
+             <article class = "pSubPrincipalLecturasDer">
+             	<br><p> Click sobre la imagen para visualizarla en otra pestaña</p>
+             	<div class="gallery">
+				<a target="_blank" href="img/lecturas/imgGaleryUno.png">
+    			 <img src="img/lecturas/imgGaleryUno.png">
+  				</a>
+  					<div class="desc">Elemento raíz</div>
+  			</div>
+  				<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryDos.png">
+    				<img src="img/lecturas/imgGaleryDos.png" >
+  				</a>
+  				<div class="desc">Metadados del documento</div>
+				</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryTres.png">
+    				<img src="img/lecturas/imgGaleryTres.png" >
+  				</a>
+  				<div class="desc">Scripting</div>
+				</div>
+			<div class="gallery himgGalleryUno">
+  				<a target="_blank" href="img/lecturas/imgGaleryCuatro.png">
+    				<img src="img/lecturas/imgGaleryCuatro.png" >
+  				</a>
+  				<div class="desc 	">Secciones</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryCinco.png">
+    				<img src="img/lecturas/imgGaleryCinco.png" >
+  				</a>
+  				<div class="desc">Agrupación de Contenido</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGalerySeis.png">
+    				<img src="img/lecturas/imgGalerySeis.png" >
+  				</a>
+  				<div class="desc">Semántica a nivel de Texto</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGalerySiete.png">
+    				<img src="img/lecturas/imgGalerySiete.png" >
+  				</a>
+  				<div class="desc">Ediciones</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryOcho.png">
+    				<img src="img/lecturas/imgGaleryOcho.png" >
+  				</a>
+  				<div class="desc">Contenido incrustado</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryNueve.png">
+    				<img src="img/lecturas/imgGaleryNueve.png" >
+  				</a>
+  				<div class="desc">Datos tabulares</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryDiez.png">
+    				<img src="img/lecturas/imgGaleryDiez.png" >
+  				</a>
+  				<div class="desc">Formularios</div>
+			</div>
+			<div class="gallery">
+  				<a target="_blank" href="img/lecturas/imgGaleryOnce.png">
+    				<img src="img/lecturas/imgGaleryOnce.png" >
+  				</a>
+  				<div class="desc">Elementos interactivos</div>
+			</div>
+          </article>
+    	</section> 
+	</section>
+	<section class="subLecAct altoLec">  
+    	<section class="oculto" id="lecturaCinco"> 
+    		 <article class="pSubLecAct pMarginLCinco" > 
+        	<p>A continuación se encuentra un listado de los atributos que se pueden utilizar en todos los elementos de HTML5 y que se denominan atributos globales.</p>  
+        	<em>contenteditable </em><br> Especifica si el contenido de un elemento es editable o no <br><br>
+        	<em>contextmeu</em><br>Especifica el menú contextual de un elemento. El menú contextual aparece cuando un usuario hace clic en el elemento. No tiene soporte en ningún navegador.</br><br>
+        	<em>draggable </em><br>Especifica si un elemento se puede arrastrar o no. </br><br>
+        	<em>dropzone </em><br>Especifica si los datos al ser arrastrados se copian,mueven o vinculan.No soportado en ningún navegador.</br><br>
+        	<em>spellcheck </em><br>Especifica si el elemento ha de tener su ortografía y gramática marcada o no. Los elementos que pueden tener revisión ortográfica son: inputs de tipo texto, textareas y elementos en modo editable.
+
+            </article> 
+             <article class = "imgEtiquetas"> 
+				<img id = "htmlEstructura" src="img/lecturas/etiquetasGlobales.png" border = "1">
+        	</article> 
     	</section> 
 	</section>
 </section>
